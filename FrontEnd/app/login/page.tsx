@@ -61,7 +61,7 @@ export default function HomePage() {
           <Auth
             supabaseClient={supabase}
             appearance={{ theme: ThemeSupa }}
-            providers={['github', 'google']} // Adicione os provedores que desejar
+            providers={[]} // Adicione os provedores que desejar
             theme="dark"
           />
         </div>
